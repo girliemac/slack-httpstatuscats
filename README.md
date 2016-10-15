@@ -14,7 +14,7 @@ Also I need to create a nicer web page.
 
 Authenticate from this button!
 
-[<img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /](https://slack.com/oauth/authorize?scope=commands+team%3Aread+&client_id=54308870179.89146186500)
+[![Login with Slack](https://platform.slack-edge.com/img/add_to_slack@2x.png)](https://slack.com/oauth/authorize?scope=commands+team%3Aread+&client_id=54308870179.89146186500)
 
 
 ## About HTTP Status Cats
