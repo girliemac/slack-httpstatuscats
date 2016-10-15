@@ -1,0 +1,24 @@
+{
+  "name": "slack-httpstatuscats",
+  "version": "1.0.0",
+  "description": "Wanna quickly look up a definition of http status code? Just type /httpstatus slash command! HTTP Status Cats bot responds you with a short description of each status code with the HTTP Status Cats picture. 🐱",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "slack",
+    "slack-bot",
+    "bot",
+    "httpstatus",
+    "cats"
+  ],
+  "author": "Tomomi ❤ Imura",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "request": "^2.75.0"
+  }
+}
