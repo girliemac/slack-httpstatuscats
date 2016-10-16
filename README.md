@@ -1,6 +1,8 @@
-# HTTP Status Cats for Slack
+# HTTP Status Cats Bot for Slack
 
 Wanna quickly look up a definition of http status code on Slack? Just type `/httpstatus` slash command! HTTP Status Cats bot responds you with a short description of each status code with the [HTTP Status Cats](https://http.cat/) picture. 🐱
+
+![HTTP Status Cats for Slack](https://github.com/girliemac/slack-httpstatuscats/blob/master/images/slack-httpstatuscats.gif)
 
 ## Running on Your Own
 
@@ -8,13 +10,9 @@ When you clone this repo run on your own server, rename the `.env-test` file to 
 
 ## Install HTTP Status Cats Bot on Slack
 
-**TBD**
-I will deploy it on Heroku soon.
-Also I need to create a nicer web page.
-
 Authenticate from this button!
 
-[![Login with Slack](https://platform.slack-edge.com/img/add_to_slack@2x.png)](https://slack.com/oauth/authorize?scope=commands+team%3Aread+&client_id=54308870179.89146186500)
+[![Login with Slack](https://platform.slack-edge.com/img/add_to_slack@2x.png)](https://slack.com/oauth/authorize?scope=commands+team%3Aread&client_id=54308870179.89146186500)
 
 
 ## About HTTP Status Cats
@@ -28,4 +26,4 @@ I would never imagined I had such a 10-min fame at that time I created and poste
 
 A good time.
 
-HTTP Status Cats are later well-adopted by communities, and evolved into many APIs and apps, especially HTTP Status Cats API and its awesome domain, **http.cat** by [Versió Català](https://twitter.com/rogeriopvl). The page is also available in Catalan language, as its TLD shows!
+HTTP Status Cats are later well-adopted by communities, and evolved into many APIs and apps, especially HTTP Status Cats API and its awesome domain, **http.cat** by [Rogério Vicente](https://twitter.com/rogeriopvl). The page is also available in Catalan language, as its TLD shows!
