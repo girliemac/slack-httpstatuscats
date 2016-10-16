@@ -2,7 +2,7 @@
 
 Wanna quickly look up a definition of http status code on Slack? Just type `/httpstatus` slash command! HTTP Status Cats bot responds you with a short description of each status code with the [HTTP Status Cats](https://http.cat/) picture. 🐱
 
-![HTTP Status Cats for Slack](https://github.com/girliemac/slack-httpstatuscats/blob/master/images/slack-httpstatuscats.gif)
+![HTTP Status Cats for Slack](https://github.com/girliemac/slack-httpstatuscats/blob/master/public/images/slack-httpstatuscats.gif)
 
 ## Running on Your Own
 

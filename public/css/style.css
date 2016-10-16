@@ -28,6 +28,14 @@ h1 {
 h2 {
   font-size: 30px;
 }
+code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
 footer {
   margin: 3em auto 1em;
   text-align: center;
@@ -36,6 +44,17 @@ footer {
 img {
   display: block;
   margin: 1em auto 2em;
+}
+.logo {
+  text-align: center;
+}
+.logo img {
+  width: 100px;
+  display: inline-block;
+}
+img.gif {
+  width: 444px;
+  height: 303px;
 }
 .status {
   text-align: center;
