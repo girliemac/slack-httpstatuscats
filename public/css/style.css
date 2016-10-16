@@ -37,6 +37,14 @@ img {
   display: block;
   margin: 1em auto 2em;
 }
+.status {
+  text-align: center;
+}
+.status img{
+  display: inline;
+  width: 250px;
+  height: 200px;
+}
 .container {
   padding-right: 15px;
   padding-left: 15px;
