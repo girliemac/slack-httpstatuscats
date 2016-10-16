@@ -4,6 +4,7 @@
   "description": "Wanna quickly look up a definition of http status code? Just type /httpstatus slash command! HTTP Status Cats bot responds you with a short description of each status code with the HTTP Status Cats picture. 🐱",
   "main": "index.js",
   "scripts": {
+    "start": "nf start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
