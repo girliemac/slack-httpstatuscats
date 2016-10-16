@@ -45,6 +45,16 @@ img {
   display: block;
   margin: 1em auto 2em;
 }
+.social {
+  text-align: right;
+}
+.social a {
+  text-decoration: none;
+  color: inherit;
+}
+.social img {
+  margin-left: 16px; 
+}
 .logo {
   text-align: center;
 }
