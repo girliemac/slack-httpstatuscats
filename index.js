@@ -16,6 +16,10 @@ const server = app.listen(process.env.PORT || 3333, () => {
 // Auth
 
 app.get('/slack', function(req, res){
+  if (!req.query.code) { // access denied
+    res.redirect('http://www.girliemac.com/slack-httpstatuscats/');
+    return;
+  }
   var data = {form: {
       client_id: process.env.SLACK_CLIENT_ID,
       client_secret: process.env.SLACK_CLIENT_SECRET,
