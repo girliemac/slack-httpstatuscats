@@ -24,6 +24,7 @@ h1, h2, h3 {
 h1 {
   font-weight: 700;
   font-size: 49px;
+  margin-top: 0.5em;
 }
 h2 {
   font-size: 30px;
@@ -51,9 +52,7 @@ img {
 .social a {
   text-decoration: none;
   color: inherit;
-}
-.social img {
-  margin-left: 16px; 
+  margin-left: 16px;
 }
 .logo {
   text-align: center;
