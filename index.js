@@ -1,6 +1,5 @@
 'use strict';
 
-require('dotenv').config();
 const httpstatus = require('./httpstatus');
 const request = require('request');
 const express = require('express');
