@@ -27,3 +27,8 @@ I would never imagined I had such a 10-min fame at that time I created and poste
 A good time.
 
 HTTP Status Cats are later well-adopted by communities, and evolved into many APIs and apps, especially HTTP Status Cats API and its awesome domain, **http.cat** by [Rogério Vicente](https://twitter.com/rogeriopvl). The page is also available in Catalan language, as its TLD shows!
+
+# Do You Node and Want to Write a Slack Command too?
+
+I wrote up a step-by-step process how to code and configure your Slack app on [Medium](https://medium.com/@girlie_mac/creating-a-slack-command-bot-from-scratch-with-node-js-distribute-it-25cf81f51040#.d4a7ice1s)!
+
