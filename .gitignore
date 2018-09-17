@@ -19,3 +19,6 @@ temp*
 .vscode
 .eslintrc
 .nvmrc
+
+### App Settings
+.node-persist
