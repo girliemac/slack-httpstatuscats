@@ -1,19 +1,58 @@
 # HTTP Status Cats Bot for Slack
 
-Wanna quickly look up a definition of http status code on Slack? Just type `/httpstatus` slash command! HTTP Status Cats bot responds you with a short description of each status code with the [HTTP Status Cats](https://http.cat/) picture. 🐱
+> :sparkles: *Updated September 2018: This is a revised version of the previously written tutorial from Ovtober 2016. As Slack has introduced the workspace app (currently in beta), this tutorial and the code samples have been updated using the new token model! All the changes from the previous version of this example, read the [DIFF.md](DIFF.md)*
+
+*Learn more about the workspace app at the [Slack API doc](https://api.slack.com/workspace-apps-preview).*
+
+---
+
+This is a tutorial for a simple slash command to look up the definition of http status code on Slack. The app lets a user to type `/httpstatus` slash command to view a short description of each status code with the [HTTP Status Cats](https://http.cat/) picture :cat:, as well as showing how to configure the OAuth button for distributing your app to public.
 
 ![HTTP Status Cats for Slack](https://github.com/girliemac/slack-httpstatuscats/blob/master/public/images/slack-httpstatuscats.gif)
 
-## Running on Your Own
 
-When you clone this repo run on your own server, rename the `.env-test` file to `.env` and fill out your own Slack Dev credentials.
-
-## Install HTTP Status Cats Bot on Slack
+## Try the demo
 
 Authenticate from this button!
 
 [![Login with Slack](https://platform.slack-edge.com/img/add_to_slack@2x.png)](https://slack.com/oauth/authorize?scope=commands+team%3Aread&client_id=54308870179.89146186500)
 
+---
+
+## Build your own - Developer setup
+
+### Create a Slack app
+
+1. Create a *workspace app* at [https://api.slack.com/apps?new_app_token=1](https://api.slack.com/apps?new_app_token=1)
+2. Add a Slash command (See *Add a Slash Command* section below)
+3. Navigate to the **OAuth & Permissions** page, scroll down to **Scopes** section, and make sure the `commands` scope is added.
+4. Go to **Install Apps** and intall the app to the selected workspace. (You should get an OAuth access token after the installation)
+5. In the mean time, go to **Basic Information** to set up your app info and get your credentials. (You will need the credentials to run the app. See the *Run the app locally* below.)
+
+#### Add a Slash Command
+1. Go back to the app settings and click on Slash Commands.
+2. Click the 'Create New Command' button and fill in the following:
+    * Command: `/httpstatus`
+    * Request URL: Your ngrok or Glitch URL + /commands
+    * Short description: `Display HTTP status code with cats`
+    * Usage hint: `404`
+3. Save 
+
+### Run the app locally 
+1. Get the code
+    * Clone this repo and run `npm install`
+2. Set the following environment variables to `.env` (see `.env.sample`):
+    * `SLACK_ACCESS_TOKEN`: Your app's `xoxa-` token (available on the ****OAuth & Permissions** once you install the app)
+    * `SLACK_SIGNING_SECRET`: Your app's Signing Secret (available on the **Basic Information** page)
+    * `SLACK_CLIENT_ID`: You need this only when you distribute your app. (available on the **Basic Information** page)
+    * `SLACK_CLIENT_SECRET`: You need this only when you distribute your app. (available on the **Basic Information** page)
+3. If you're running the app locally, run the app (`npm start`)
+
+## Tutorial on Medium
+
+TBA
+
+---
 
 ## About HTTP Status Cats
 
@@ -28,7 +67,6 @@ A good time.
 
 HTTP Status Cats are later well-adopted by communities, and evolved into many APIs and apps, especially HTTP Status Cats API and its awesome domain, **http.cat** by [Rogério Vicente](https://twitter.com/rogeriopvl). The page is also available in Catalan language, as its TLD shows!
 
-# Do You Node and Want to Write a Slack Command too?
+---
 
-I wrote up a step-by-step process how to code and configure your Slack app on [Medium](https://medium.com/@girlie_mac/creating-a-slack-command-bot-from-scratch-with-node-js-distribute-it-25cf81f51040#.d4a7ice1s)!
 

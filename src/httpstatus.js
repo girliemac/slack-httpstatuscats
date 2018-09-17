@@ -61,7 +61,7 @@ module.exports = {
   510: 'Not Extended',
   511: 'Network Authentication Required',
   103: '[Unofficial] Checkpoint',
-  420: '[Unofficial] Method Failure (Spring Framework), Enhance Your Calm (Twitter)',
+  420: '[Unofficial] Enhance Your Calm (Twitter). Method Failure (Spring Framework).',
   419: '[Unofficial] I\'m a fox (Smoothwall/Foxwall)',
   450: '[Unofficial] Blocked by Windows Parental Controls (Microsoft)',
   498: '[Unofficial] Invalid Token (Esri)',
