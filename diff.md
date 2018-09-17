@@ -39,13 +39,13 @@ Workspace apps have totally different token types -
 
 Previously, there are user token (`xoxp-`) and bot token (`xoxb-`). The new app has no concept of the user/bot separations and just have an access token.
 
-Workspace app access tokens have long-lived `xoxa-` token and short-lived `xoxr-` token. You can use the long-lived `xoxa-` token to run your app internally on your team's workspace, however, if you distribute your app, you must use the short-lived token that expires every 60 min. See the *Token Rotation* section below.
+Workspace app access tokens (`xoxa-`) can be either long-lived token and short-lived token. You can use the long-lived token to run your app internally on your team's workspace, however, if you distribute your app, you must use the short-lived token that expires every 60 min. See the *Token Rotation* section below.
 
 ## Token Rotation
 
 OAuth refresh tokens are also introduced as a security feature, which allows the app owners to proactively rotate tokens when the tokens are compromised.
 
-Once you enable the *Token Expiration* at your OAuth setting from the app configuration page, you get a refresh token that begins with `xoxr-`. Use this token to get a new access token using `oauth.access` method every time you need one. 
+Once you enable the *Token Expiration* at your OAuth setting from the app configuration page, you get a refresh token that begins with `xoxr-`. Either use this token on the page (for development or an internal integration), or OAuth user authorization (if your app is distributed) to get a new access token using `oauth.access` method every time you need one. 
 
 As you may have notices, now you call `oauth.access` method in two different scenarios:
 1. The initial handshake to receive a temporary authorization code during the OAuth flow
