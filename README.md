@@ -20,7 +20,7 @@ This is a tutorial for a simple slash command to look up the definition of http 
 
 Authenticate from this button!
 
-[![Login with Slack](https://platform.slack-edge.com/img/add_to_slack@2x.png)](https://slack.com/oauth/authorize?scope=commands+team%3Aread&client_id=54308870179.89146186500)
+[![Login with Slack](https://platform.slack-edge.com/img/add_to_slack@2x.png)](https://slack.com/oauth/authorize?scope=commands+team%3Aread&client_id=2147483902.429080861072)
 
 ---
 
