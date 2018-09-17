@@ -1,4 +1,4 @@
-# HTTP Status Cats Bot for Slack
+# HTTP Status Cats Slash Command for Slack
 > :sparkles: *Updated September 2018* 
 >
 > This is a revised version of my 2-year-old article. 
