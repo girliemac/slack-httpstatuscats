@@ -1,12 +1,12 @@
 # HTTP Status Cats Bot for Slack
 > :sparkles: *Updated September 2018* 
-
+>
 > This is a revised version of my 2-year-old article. 
-
+>
 > Since I wrote the original tutorial two years ago, there have been a lot of changes-- first, I am now a Slack employee (nice, right?) also, Slack Platform team has made significant upgrade with the API by introducing a lot of new features including new OAuth token model and security features. I re-wrote the tutorial to hopefully help developers who previously have worked with Slack APIs and want to update your apps with the new features, as well as a new Slack!
-
+>
 > All the changes from the previous version of this example, read the [diff.md](diff.md)*
-
+>
 > *Learn more about the workspace app at the [Slack API doc](https://api.slack.com/workspace-apps-preview).*
 
 ---
