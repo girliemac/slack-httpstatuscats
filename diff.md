@@ -1,21 +1,5 @@
 # What's New? - Updates from the Previous Example
 
-Now this tutorial is revised with new Slack platform features also switched to the [workspace token](https://api.slack.com/docs/working-with-workspace-tokens) model. So what are the *diffs* in this updated example?
-
-## Creating an app
-
-To create a new "workspace app" at [https://api.slack.com/apps?new_app_token=1](https://api.slack.com/apps?new_app_token=1), instead of using the previous App creation page.
-
-## OAuth Scopes
-
-Scopes for this particular sample has not been changed, however, some scopes are no longer valid with workspace apps. You can learn more about scopes at [https://api.slack.com/scopes](https://api.slack.com/scopes)
-
-## Installation and Permission
-
-When a user is installing your app, the user will be ask to choose which channel(s) to install. After the installation, the app name appears under "Apps" at the menu pane on Slack client, and this is now called `app_home`, a where your app can send DM to the user who installed your app. 
-
-Also, your slash command is only available on the channels that your app is installed, unless some user adds it on other channels.
-
 
 ## Sigining Secret 
 
