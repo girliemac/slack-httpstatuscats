@@ -15,7 +15,7 @@
   "author": "Tomomi ❤ Imura",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": ">=0.21.2",
     "body-parser": "^1.18.3",
     "dotenv": "^6.0.0",
     "express": "^4.16.3",
